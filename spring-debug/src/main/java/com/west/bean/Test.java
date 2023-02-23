@@ -15,7 +15,5 @@ public class Test {
 		User user = context.getBean(User.class);
 		System.out.println(user.getName());
 		System.out.println(context.getEnvironment().getProperty("name"));
-
-		//ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
 	}
 }
